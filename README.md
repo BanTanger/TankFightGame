@@ -12,13 +12,13 @@
 
 3. 下载完成后在本地使用 IDEA 运行，打开IDEA左上角File -> Open... 找到文件按右下角的OK。（或许使用其他支持JAVA语言的其他软件也可运行，我没测试过）
 
-   ！![image-20220223222031322](C:\Users\12902\AppData\Roaming\Typora\typora-user-images\image-20220223222031322.png)!![image-20220223222241141](C:\Users\12902\AppData\Roaming\Typora\typora-user-images\image-20220223222241141.png)
+   ![image-20220223222031322](C:\Users\12902\AppData\Roaming\Typora\typora-user-images\image-20220223222031322.png)![image-20220223222241141](C:\Users\12902\AppData\Roaming\Typora\typora-user-images\image-20220223222241141.png)
 
 4. 本项目使用jdk8，在 IDEA 中可通过 设置 **run -> Edit Configurations 找到 Build and run 更改 jdk 至 java 8**  **！！！为了确保项目可正常运行，请将工作路径Working directory设置成 $MODULE_DIR$ **
 
-   !![image-20220223185523403](C:\Users\12902\AppData\Roaming\Typora\typora-user-images\image-20220223185523403.png)
+   ![image-20220223185523403](C:\Users\12902\AppData\Roaming\Typora\typora-user-images\image-20220223185523403.png)
 
-   !![image-20220223185955619](C:\Users\12902\AppData\Roaming\Typora\typora-user-images\image-20220223185955619.png)
+   ![image-20220223185955619](C:\Users\12902\AppData\Roaming\Typora\typora-user-images\image-20220223185955619.png)
 
 5. 找到文件夹中**TankFight**目录的**TankFightGame 按右键的Run TankFight main()**或者是**使用快捷键Ctrl+Shift+F10**
 
@@ -62,7 +62,7 @@
   >
   > ​			创建空流 bw = null 时，后面设置流的节点流一定要注意变量前面是否有类型
   >
-  > ​			！会导致空流关闭。![image-20220223212521256](C:\Users\12902\AppData\Roaming\Typora\typora-user-images\image-20220223212521256.png)			
+  > ​			会导致空流关闭。![image-20220223212521256](C:\Users\12902\AppData\Roaming\Typora\typora-user-images\image-20220223212521256.png)			
 
 + 多文件间传入某一类到想要类里：
   + 通过在类中设置一个集合属性，用setXxx方法将其他文件的坦克成员传入到本类中
